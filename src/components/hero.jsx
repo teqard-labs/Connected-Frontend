@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
-import img from '../media/Artboard1.jpg'
+
 import Navbar from '../components/navbar';
 import ham from '../media/Hamburg.jpg'
+import profile from '../media/profile.webp'
 class Hero extends Component {
     constructor(props) {
         super(props);
@@ -9,7 +10,7 @@ class Hero extends Component {
    
     render() { 
         return (<div>
-        <div className='w-screen h-screen dark:bg-slate-900'  style={{ backgroundImage:`url(${img})`,backgroundRepeat:"no-repeat",backgroundSize:"cover"  }}>
+        <div >
             <Navbar/>
             <section className="px-5 py-10 dark:text-white">
 	<div className="container grid grid-cols-12 mx-auto gap-y-6 md:gap-10">
@@ -117,7 +118,83 @@ class Hero extends Component {
 		</div>
 	</div>
 </section>
-
+<div class="flex flex-col items-center w-screen gap-1 p-2 mb-8 mt-10 md:flex-row md:mb-0 flex-between">
+    <div class="bg-[#b2c0f6] opacity-50  w-72 shadow-lg mx-auto rounded-xl p-4">
+        <p class="text-white dark:text-white">
+            <span class="text-lg font-bold text-white">
+                “
+            </span>
+            To get social media testimonials like these, keep your customers engaged with your social media accounts by posting regularly yourself
+            <span class="text-lg font-bold text-white">
+                ”
+            </span>
+        </p>
+        <div class="flex items-center mt-4">
+            <a href="#" class="relative block">
+                <img alt="profil" src={profile}  class="mx-auto object-cover rounded-full h-10 w-10 "/>
+            </a>
+            <div class="flex flex-col justify-between ml-2">
+                <span class="text-sm font-semibold text-white">
+                    Jean Miguel
+                </span>
+                <span class="flex items-center text-xs dark:text-slate-100">
+                    CEO
+                    
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="bg-[#C1C8E4] opacity-60  w-72 shadow-lg mx-auto rounded-xl p-4">
+        <p class="text-white dark:text-white">
+            <span class="text-lg font-bold text-white">
+                “
+            </span>
+            To get social media testimonials like these, keep your customers engaged with your social media accounts by posting regularly yourself
+            <span class="text-lg font-bold text-white">
+                ”
+            </span>
+        </p>
+        <div class="flex items-center mt-4">
+            <a href="#" class="relative block">
+                <img alt="profil" src={profile}  class="mx-auto object-cover rounded-full h-10 w-10 "/>
+            </a>
+            <div class="flex flex-col justify-between ml-2">
+                <span class="text-sm font-semibold text-white">
+                    Jean Miguel
+                </span>
+                <span class="flex items-center text-xs dark:text-slate-100">
+                    CEO
+                    
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="bg-[#C1C8E4] opacity-60  w-72 shadow-lg mx-auto rounded-xl p-4">
+        <p class="text-white dark:text-white">
+            <span class="text-lg font-bold text-white">
+                “
+            </span>
+            To get social media testimonials like these, keep your customers engaged with your social media accounts by posting regularly yourself
+            <span class="text-lg font-bold text-white">
+                ”
+            </span>
+        </p>
+        <div class="flex items-center mt-4">
+            <a href="#" class="relative block">
+                <img alt="profil" src={profile} class="mx-auto object-cover rounded-full h-10 w-10 "/>
+            </a>
+            <div class="flex flex-col justify-between ml-2">
+                <span class="text-sm font-semibold text-white">
+                    Jean Miguel
+                </span>
+                <span class="flex items-center text-xs dark:text-slate-100">
+                    CEO
+                    
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
             
          
         </div>  
