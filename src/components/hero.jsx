@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import img from '../media/Artboard1.jpg'
 import Navbar from '../components/navbar';
+import ham from '../media/Hamburg.jpg'
 class Hero extends Component {
     constructor(props) {
         super(props);
@@ -58,7 +59,7 @@ class Hero extends Component {
 				</a>
 			</div>
 		</div>
-		<div className="relative flex col-span-12 bg-center bg-no-repeat bg-cover dark:bg-gray-500 xl:col-span-6 lg:col-span-5 md:col-span-9 min-h-96" >
+		<div className="relative flex col-span-12 bg-center bg-no-repeat bg-cover dark:bg-gray-500 xl:col-span-6 lg:col-span-5 md:col-span-9 min-h-96"  style={{ backgroundImage:`url(${ham})` }} >
 			<span className="absolute px-1 pb-2 text-xs font-bold uppercase border-b-2 left-6 top-6 dark:border-white dark:text-slate-50">hamburg, germany</span>
 			<a className="flex flex-col items-center justify-end p-6 text-center sm:p-8 group dark:via-transparent flex-grow-1 bg-gradient-to-b dark:from-gray-900 dark:to-gray-900">
 				<span className="flex items-center mb-4 space-x-2 dark:text-white">
