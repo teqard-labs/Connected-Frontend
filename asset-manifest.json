@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Connected-frontend/static/css/main.dcdc7c8e.css",
-    "main.js": "/Connected-frontend/static/js/main.b6b92a4c.js",
+    "main.css": "/Connected-frontend/static/css/main.aa43c7da.css",
+    "main.js": "/Connected-frontend/static/js/main.e2ee98b6.js",
     "static/media/Hamburg.jpg": "/Connected-frontend/static/media/Hamburg.ca3540bae2b6b5da86f4.jpg",
     "static/media/Artboard4.jpg": "/Connected-frontend/static/media/Artboard4.728b0b0fc634bb2ff10a.jpg",
     "static/media/Artboard2.jpg": "/Connected-frontend/static/media/Artboard2.329b146447139e0b14ae.jpg",
@@ -9,11 +9,11 @@
     "static/media/Artboard3.jpg": "/Connected-frontend/static/media/Artboard3.9330b585b944fd44b80f.jpg",
     "static/media/profile.webp": "/Connected-frontend/static/media/profile.b6276ade4bda07e2d391.webp",
     "index.html": "/Connected-frontend/index.html",
-    "main.dcdc7c8e.css.map": "/Connected-frontend/static/css/main.dcdc7c8e.css.map",
-    "main.b6b92a4c.js.map": "/Connected-frontend/static/js/main.b6b92a4c.js.map"
+    "main.aa43c7da.css.map": "/Connected-frontend/static/css/main.aa43c7da.css.map",
+    "main.e2ee98b6.js.map": "/Connected-frontend/static/js/main.e2ee98b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcdc7c8e.css",
-    "static/js/main.b6b92a4c.js"
+    "static/css/main.aa43c7da.css",
+    "static/js/main.e2ee98b6.js"
   ]
 }
