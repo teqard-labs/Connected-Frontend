@@ -118,8 +118,8 @@ class Hero extends Component {
 		</div>
 	</div>
 </section>
-<div class="flex flex-col items-center w-screen gap-1 p-2 mb-8 mt-10 md:flex-row md:mb-0 flex-between">
-    <div class="bg-[#b2c0f6] opacity-50  w-72 shadow-lg mx-auto rounded-xl p-4">
+<div class="flex flex-col items-center w-full gap-1 p-2 mb-8 mt-10 md:flex-row md:mb-0 flex-between">
+    <div class="bg-[#0047AB]   w-72 shadow-lg mx-auto rounded-xl p-4">
         <p class="text-white dark:text-white">
             <span class="text-lg font-bold text-white">
                 “
@@ -144,7 +144,7 @@ class Hero extends Component {
             </div>
         </div>
     </div>
-    <div class="bg-[#C1C8E4] opacity-60  w-72 shadow-lg mx-auto rounded-xl p-4">
+    <div class="bg-[#0047AB]  w-72 shadow-lg mx-auto rounded-xl p-4">
         <p class="text-white dark:text-white">
             <span class="text-lg font-bold text-white">
                 “
@@ -169,7 +169,7 @@ class Hero extends Component {
             </div>
         </div>
     </div>
-    <div class="bg-[#C1C8E4] opacity-60  w-72 shadow-lg mx-auto rounded-xl p-4">
+    <div class="bg-[#0047AB]   w-72 shadow-lg mx-auto rounded-xl p-4">
         <p class="text-white dark:text-white">
             <span class="text-lg font-bold text-white">
                 “
