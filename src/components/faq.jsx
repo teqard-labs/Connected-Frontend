@@ -9,7 +9,11 @@ class faq extends Component {
           
           <div class="mx-24 ...">
             <div class="my-24 ...">
-            <h1 class="text-lg text-[30px] text-white">FAQ</h1>
+            <div class="py-6 ...">
+            
+            <h1 class="text-center text-lg text-[30px] text-white">FAQ</h1>
+            </div>
+            
             <div
             
             class="divide-y divide-gray-200 rounded-xl border border-gray-200 bg-blue-900	"
@@ -250,9 +254,41 @@ class faq extends Component {
                 earum similique!
               </p>
             </details>
+
+            </div>
+            
+            <div class="my-24 ...">
+            <div class="py-6 ...">
+            <h1 class="text-center text-lg text-[30px] text-white">Have any further Questions? </h1>
+            <div class="py-4 ...">
+            <h1 class="text-center text-lg text-[30px] text-white">Feel free to let us know! </h1>
+            </div>
+            
+            
+          </div>
+          <div class="py-6 ...">
+          <div class="border-dashed border-2 border-sky-500 ...">
+           <h1 class="text-left text-lg text-white">Name</h1>
+           </div>
+           </div>
+           <div class="py-6 ...">
+           <div class="border-dashed border-2 border-sky-500 ...">
+           <h1 class="text-left text-lg text-white">Email</h1>
+           </div>
+           </div>
+           <div class="py-6 ...">
+           <div class="border-dashed border-2 border-sky-500 ...">
+           <h1 class="text-left text-lg text-white">Query</h1>
+           </div>
+           </div>
+
           </div>
           </div>
           </div>
+
+       
+
+         
 
          );
     }
