@@ -10,18 +10,8 @@ import './App.css';
 function App() {
   return (
     <div>
-      <div className='w-full h-full dark:bg-[#01004C]'  style={{ backgroundImage:`url(${img1})`,backgroundRepeat:"no-repeat" }}>
-      <Hero/>
-      </div>
-      <div className='w-full h-full dark:bg-[#01004C]'  style={{ backgroundImage:`url(${img2})`,backgroundRepeat:"no-repeat" }}>
-     <Faq/>
-      </div>
-      <div className='w-full h-full dark:bg-[#01004C]'  style={{ backgroundImage:`url(${img3})`,backgroundRepeat:"no-repeat" }}>
-     
-      </div>
-      <div className='w-full h-full dark:bg-[#01004C]'  style={{ backgroundImage:`url(${img4})`,backgroundRepeat:"no-repeat" }}>
-      
-      </div>
+        <Hero/>
+        <Faq/>
     </div>
   );
 }

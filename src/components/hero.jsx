@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-
 import Navbar from '../components/navbar';
 import ham from '../media/Hamburg.jpg'
 import profile from '../media/profile.webp'
+import img from '../media/Artboard1.jpg'
 class Hero extends Component {
     constructor(props) {
         super(props);
@@ -10,9 +10,12 @@ class Hero extends Component {
    
     render() { 
         return (<div>
-        <div >
+        <div className='bg-center bg-no-repeat bg-cover  bg-hero' >
+		
+			
             <Navbar/>
-            <section className="px-5 py-10 dark:text-white">
+			<section className="px-5 py-10 dark:text-white"> 
+			
 	<div className="container grid grid-cols-12 mx-auto gap-y-6 md:gap-10">
 		<div className="flex flex-col justify-between col-span-12 py-2 space-y-8 md:space-y-16 md:col-span-3">
 			<div className="flex flex-col space-y-8 md:space-y-12">

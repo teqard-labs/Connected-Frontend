@@ -6,7 +6,7 @@ class faq extends Component {
     state = {  }
     render() { 
         return ( 
-          
+          <div className='h-auto bg-center bg-no-repeat bg-cover bg-hero-2'>
           <div class="mx-24 ...">
             <div class="my-24 ...">
             <div class="py-6 ...">
@@ -286,7 +286,7 @@ class faq extends Component {
           </div>
           </div>
 
-       
+          </div>
 
          
 
