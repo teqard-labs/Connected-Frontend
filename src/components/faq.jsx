@@ -6,7 +6,7 @@ class faq extends Component {
     state = {  }
     render() { 
         return ( 
-          <div className='h-auto bg-center bg-no-repeat bg-cover bg-hero-2'>
+          <div >
           <div class="mx-24 ...">
             <div class="my-24 ...">
             <div class="py-6 ...">
@@ -16,7 +16,7 @@ class faq extends Component {
             
             <div
             
-            class="divide-y divide-gray-200 rounded-xl border border-gray-200 bg-blue-900	"
+            class="divide-y divide-gray-200 rounded-xl border border-gray-200 bg-[#0047AB] 	"
           >
             
            
@@ -257,32 +257,7 @@ class faq extends Component {
 
             </div>
             
-            <div class="my-24 ...">
-            <div class="py-6 ...">
-            <h1 class="text-center text-lg text-[30px] text-white">Have any further Questions? </h1>
-            <div class="py-4 ...">
-            <h1 class="text-center text-lg text-[30px] text-white">Feel free to let us know! </h1>
-            </div>
-            
-            
-          </div>
-          <div class="py-6 ...">
-          <div class="border-dashed border-2 border-sky-500 ...">
-           <h1 class="text-left text-lg text-white">Name</h1>
-           </div>
-           </div>
-           <div class="py-6 ...">
-           <div class="border-dashed border-2 border-sky-500 ...">
-           <h1 class="text-left text-lg text-white">Email</h1>
-           </div>
-           </div>
-           <div class="py-6 ...">
-           <div class="border-dashed border-2 border-sky-500 ...">
-           <h1 class="text-left text-lg text-white">Query</h1>
-           </div>
-           </div>
-
-          </div>
+          
           </div>
           </div>
 

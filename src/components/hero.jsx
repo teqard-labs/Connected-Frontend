@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Navbar from '../components/navbar';
 import ham from '../media/Hamburg.jpg'
 import profile from '../media/profile.webp'
-import img from '../media/Artboard1.jpg'
+
 class Hero extends Component {
     constructor(props) {
         super(props);
@@ -10,7 +10,7 @@ class Hero extends Component {
    
     render() { 
         return (<div>
-        <div className='bg-center bg-no-repeat bg-cover  bg-hero' >
+        <div>
 		
 			
             <Navbar/>
