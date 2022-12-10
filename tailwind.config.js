@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero': "url('media/Desktop1.png')",
-        'hero-2': "url('media/Artboard2.jpg')",}
+        'hero-2': "url('media/Desktop2.png')",
+        'hero-3': "url('media/Desktop3.png')",}
     },
   },
   plugins: [],

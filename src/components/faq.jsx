@@ -6,7 +6,7 @@ class faq extends Component {
     state = {  }
     render() { 
         return ( 
-          <div >
+          <div className='inline-block'>
           <div class="mx-24 ...">
             <div class="my-24 ...">
             <div class="py-6 ...">

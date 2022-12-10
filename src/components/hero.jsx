@@ -68,7 +68,7 @@ class Hero extends Component {
 			<a className="flex flex-col items-center justify-end p-6 text-center sm:p-8 group dark:via-transparent flex-grow-1 bg-gradient-to-b dark:from-gray-900 dark:to-gray-900">
 				<span className="flex items-center mb-4 space-x-2 dark:text-white">
 					<span className="relative flex-shrink-0 w-2 h-2 rounded-full dark:bg-slate-50">
-						<span className="absolute flex-shrink-0 w-3 h-3 rounded-full -left-1 -top-1 animate-ping dark:bg-slate-50"></span>
+						<span className="absolute flex-shrink-0 w-3 h-3 rounded-full -left-0.5 -top-0.5 animate-ping dark:bg-slate-50"></span>
 					</span>
 					<span className="text-sm font-bold">Live</span>
 				</span>
