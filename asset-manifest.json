@@ -1,19 +1,16 @@
 {
   "files": {
-    "main.css": "/Connected-frontend/static/css/main.aa43c7da.css",
-    "main.js": "/Connected-frontend/static/js/main.e2ee98b6.js",
+    "main.css": "/Connected-frontend/static/css/main.7ce70599.css",
+    "main.js": "/Connected-frontend/static/js/main.2b666cdf.js",
     "static/media/Hamburg.jpg": "/Connected-frontend/static/media/Hamburg.ca3540bae2b6b5da86f4.jpg",
-    "static/media/Artboard4.jpg": "/Connected-frontend/static/media/Artboard4.728b0b0fc634bb2ff10a.jpg",
-    "static/media/Artboard2.jpg": "/Connected-frontend/static/media/Artboard2.329b146447139e0b14ae.jpg",
-    "static/media/Artboard1.jpg": "/Connected-frontend/static/media/Artboard1.5a81b8c21f05b920e42b.jpg",
-    "static/media/Artboard3.jpg": "/Connected-frontend/static/media/Artboard3.9330b585b944fd44b80f.jpg",
+    "static/media/Desktop2.png": "/Connected-frontend/static/media/Desktop2.e148600822917b123645.png",
     "static/media/profile.webp": "/Connected-frontend/static/media/profile.b6276ade4bda07e2d391.webp",
     "index.html": "/Connected-frontend/index.html",
-    "main.aa43c7da.css.map": "/Connected-frontend/static/css/main.aa43c7da.css.map",
-    "main.e2ee98b6.js.map": "/Connected-frontend/static/js/main.e2ee98b6.js.map"
+    "main.7ce70599.css.map": "/Connected-frontend/static/css/main.7ce70599.css.map",
+    "main.2b666cdf.js.map": "/Connected-frontend/static/js/main.2b666cdf.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa43c7da.css",
-    "static/js/main.e2ee98b6.js"
+    "static/css/main.7ce70599.css",
+    "static/js/main.2b666cdf.js"
   ]
 }
