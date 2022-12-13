@@ -9,7 +9,7 @@ class Hero extends Component {
     }
    
     render() { 
-        return (<div>
+        return (<div id='hero'>
         <div>
 		
 			
@@ -147,7 +147,7 @@ class Hero extends Component {
             </div>
         </div>
     </div>
-    <div class="bg-[#0047AB]  w-72 shadow-lg mx-auto rounded-xl p-4">
+    <div class="bg-[#73C2FB]  w-72 shadow-lg mx-auto rounded-xl p-4">
         <p class="text-white dark:text-white">
             <span class="text-lg font-bold text-white">
                 “
@@ -172,7 +172,7 @@ class Hero extends Component {
             </div>
         </div>
     </div>
-    <div class="bg-[#0047AB]   w-72 shadow-lg mx-auto rounded-xl p-4">
+    <div class="bg-[#26619B]   w-72 shadow-lg mx-auto rounded-xl p-4">
         <p class="text-white dark:text-white">
             <span class="text-lg font-bold text-white">
                 “

@@ -5,7 +5,8 @@ class Contacts extends Component {
     }
     state = {  }
     render() { 
-        return ( <section className="py-6 dark:text-gray-50">
+        return ( <div id='contact'>
+        <section className="py-6 dark:text-gray-50">
         <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
             <div className="py-6 md:py-0 md:px-6">
                 <h1 className="text-4xl font-bold">Get in touch</h1>
@@ -45,10 +46,11 @@ class Contacts extends Component {
                     <span className="mb-1">Message</span>
                     <textarea rows="3" className="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400"></textarea>
                 </label>
-                <button type="button" className="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 dark:bg-violet-400 dark:text-gray-900 focus:ring-violet-400 hover:ring-violet-400">Submit</button>
+                <button type="button" className="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 dark:bg-[#0047AB] dark:text-white focus:bg-[#73C2FB] hover:bg-[#26619B]">Submit</button>
             </form>
         </div>
-    </section> );
+    </section>
+    </div> );
     }
 }
  

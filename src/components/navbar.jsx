@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import AnchorLink from "react-anchor-link-smooth-scroll";
 class Navbar extends Component {
     constructor(props) {
         super(props);
@@ -8,19 +8,36 @@ class Navbar extends Component {
     render() { 
         return ( <div>
 
-<nav class="relative select-none  lg:flex lg:items-stretch w-full">
-  <div class="flex flex-no-shrink items-stretch h-12">
-    <a href="#" class="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-white no-underline flex items-center hover:bg-blue-100/[.6] ">Logo</a>
-    <button class="block lg:hidden cursor-pointer ml-auto relative w-12 h-12 p-4">
-      <svg class="fill-current text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
-      <svg class="fill-current text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z"/></svg>
-    </button>
-  </div>
-  <div class="lg:flex lg:items-stretch lg:flex-no-shrink lg:flex-grow">
-    <div class="lg:flex lg:items-stretch lg:justify-end ml-auto">
-      <a href="#" class="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-white no-underline flex items-center hover:bg-blue-100/[.6] ">Services</a>
-      <a href="#" class="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-white no-underline flex items-center hover:bg-blue-100/[.6] ">FAQs</a>
-      <a href="#" class="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-white no-underline flex items-center hover:bg-blue-100/[.6] ">Contact</a>
+<nav className="relative flex flex-wrap items-center justify-between px-2 py-3 mb-3">
+  <div className="container flex flex-wrap items-center justify-between px-4 mx-auto">
+    <div className="relative flex justify-between w-full px-4 lg:w-auto lg:static lg:block lg:justify-start">
+      <a className="inline-block py-2 mr-4 text-sm font-bold leading-relaxed text-white uppercase whitespace-nowrap" >
+       <AnchorLink href='#hero'> LOGO</AnchorLink>
+      </a>
+      <button className="block px-3 py-1 text-xl leading-none bg-transparent border border-transparent border-solid rounded outline-none cursor-pointer lg:hidden focus:outline-none" type="button">
+        <span className="relative block w-6 h-px bg-white rounded-sm"></span>
+        <span className="relative block w-6 h-px mt-1 bg-white rounded-sm"></span>
+        <span className="relative block w-6 h-px mt-1 bg-white rounded-sm"></span>
+      </button>
+    </div>
+    <div className="items-center flex-grow lg:flex" id="example-navbar-warning">
+      <ul className="flex flex-col ml-auto list-none lg:flex-row">
+          <li className="nav-item">
+            <a className="flex items-center px-3 py-2 text-xs font-bold leading-snug text-white uppercase hover:opacity-75" >
+            <AnchorLink href='#service'> Services</AnchorLink> 
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="flex items-center px-3 py-2 text-xs font-bold leading-snug text-white uppercase hover:opacity-75" >
+            <AnchorLink href='#faq'> FAQs</AnchorLink> 
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="flex items-center px-3 py-2 text-xs font-bold leading-snug text-white uppercase hover:opacity-75" >
+            <AnchorLink href='#contact'> Contact </AnchorLink> 
+            </a>
+          </li>
+      </ul>
     </div>
   </div>
 </nav>
